@@ -5,8 +5,8 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Load the trained model
-with open("loan_model.pkl", "rb") as f:
-    model = pickle.load(f)
+with open("loan_approval_ml_app/loan_model.pkl", "rb") as f:
+model = pickle.load(f)
 
 # Page config
 st.set_page_config(page_title="Loan Approval App", page_icon="💰", layout="centered")
